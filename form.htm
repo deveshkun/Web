@@ -1,6 +1,7 @@
 <html>
     <head>
         <title>Student Registration Form</title>
+        <link rel="stylesheet" href="formstyle.css">
     </head>
     <body bgcolor="pink">
         <div>
@@ -8,7 +9,7 @@
             <center>
             <table border="0">
                 
-                <div><b>Student Registration</b></div>
+                <div id="front"><b>Student Registration</b></div>
                 <tr>
                     <td>Name :</td>
                     <td><input type="text" id="name"></td>
@@ -40,13 +41,13 @@
                     <td><textarea name="add" cols="10" rows="10"></textarea></td>
                 </tr>
                 <tr></tr>
-                <tr>
-                        <td><input type="submit" value="Submit"></td>
-                        <td><input type="reset" value="Reset"></td>
-                </tr>
             </table>
             </center>
         </form>
         </div>
+        <center>
+            <input type="submit" value="Submit" id="but">
+            <input type="reset" value="Reset" id="but">
+        </center>
     </body>
 </html>
